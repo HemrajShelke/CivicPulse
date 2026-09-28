@@ -1,0 +1,109 @@
+[
+  {
+    "id": "seed-1",
+    "title": "Crater-sized Pothole on Western Express Highway",
+    "description": "Extremely dangerous crater-sized pothole near Bandra Flyover on WEH. Multiple bikers have narrowly slipped during the sudden monsoon showers yesterday.",
+    "category": "Road Infrastructure",
+    "severity": "Critical",
+    "department": "BMC (Roads Department)",
+    "status": "In Progress",
+    "address": "Western Express Highway, near Bandra Flyover, Mumbai, Maharashtra 400050",
+    "lat": 19.0544,
+    "lng": 72.8402,
+    "reporterName": "Rohan Deshmukh",
+    "reporterEmail": "rohan.d@gmail.com",
+    "votes": 42,
+    "comments": [
+      {
+        "author": "Amit Mehta",
+        "text": "BMC needs to fix this ASAP, it is right at the curve of the bridge!",
+        "date": "2026-09-27T08:17:37.773Z"
+      },
+      {
+        "author": "Navi (AI Mascot)",
+        "text": "Analyzed report: Highly critical location on a major expressway. Escalate SLA prioritised.",
+        "date": "2026-09-28T08:17:37.774Z"
+      }
+    ],
+    "createdAt": "2026-09-26T08:17:37.774Z",
+    "slaTime": "T+18h Left",
+    "karmaPoints": 150,
+    "ward": "Ward H-West",
+    "image": "https://images.unsplash.com/photo-1599740831146-80a827db0d42?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "seed-2",
+    "title": "Blocked Stormwater Drain Causing Knee-Deep Waterlogging",
+    "description": "The main drain in HSR Layout Sector 3 is completely choked with plastic garbage and construction rubble. Water has accumulated on the street and is entering houses.",
+    "category": "Sewage & Water",
+    "severity": "Critical",
+    "department": "BBMP (Stormwater Management)",
+    "status": "Reported",
+    "address": "HSR Layout, Sector 3, near BDA Complex, Bengaluru, Karnataka 560102",
+    "lat": 12.9116,
+    "lng": 77.6389,
+    "reporterName": "Priya Sridhar",
+    "reporterEmail": "priya.s@outlook.com",
+    "votes": 87,
+    "comments": [
+      {
+        "author": "Santhosh K.",
+        "text": "Every year we suffer this in Sector 3. Glad CivicPulse is publicising this.",
+        "date": "2026-09-27T22:17:37.774Z"
+      }
+    ],
+    "createdAt": "2026-09-27T12:17:37.774Z",
+    "slaTime": "T+6h Left",
+    "karmaPoints": 200,
+    "ward": "Ward 174 (HSR Layout)",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "seed-3",
+    "title": "Three Streetlights Non-Functional for Over 2 Weeks",
+    "description": "Entire dark stretch behind Kamala Nehru Ridge. It feels extremely unsafe for women and children returning from tuition classes in the evening.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "department": "Delhi Power Grid",
+    "status": "Resolved",
+    "address": "Civil Lines, Kamala Nehru Ridge Road, Delhi 110054",
+    "lat": 28.675,
+    "lng": 77.2185,
+    "reporterName": "Arun Sharma",
+    "reporterEmail": "arun.sharma@yahoo.com",
+    "votes": 19,
+    "comments": [
+      {
+        "author": "Meera Sen",
+        "text": "Update: The maintenance crew arrived today morning and replaced the bulbs! Awesome work!",
+        "date": "2026-09-28T08:17:37.774Z"
+      }
+    ],
+    "createdAt": "2026-09-24T08:17:37.774Z",
+    "slaTime": "Resolved",
+    "karmaPoints": 80,
+    "ward": "Civil Lines Ward 12",
+    "image": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "seed-4",
+    "title": "Garbage Dump Yard Overflowing onto Main Road",
+    "description": "Massive pile of solid waste dumped right next to the school gate. Stray dogs and cows are scattering it across the road, creating an absolute bio-hazard.",
+    "category": "Garbage & Waste",
+    "severity": "Critical",
+    "department": "PMC (Solid Waste Management)",
+    "status": "Reported",
+    "address": "Kothrud, near Millennium School, Pune, Maharashtra 411038",
+    "lat": 18.5074,
+    "lng": 73.8077,
+    "reporterName": "Dr. Vinay Patil",
+    "reporterEmail": "vinay.p@gmail.com",
+    "votes": 65,
+    "comments": [],
+    "createdAt": "2026-09-27T20:17:37.774Z",
+    "slaTime": "T+29h Left",
+    "karmaPoints": 120,
+    "ward": "Ward 12 (Kothrud)",
+    "image": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=800"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "CivicPulse",
+  "description": "An interactive citizen engagement and accountability portal featuring Gemini AI issue classification, automated SLA enforcement, and custom ward heatmaps.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

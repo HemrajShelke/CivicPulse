@@ -1,0 +1,153 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Registered civic hero user",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Unique user ID matching Auth UID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the user"
+        },
+        "email": {
+          "type": "string",
+          "description": "Email address of the user"
+        },
+        "photoURL": {
+          "type": "string",
+          "description": "Optional profile photo URL"
+        },
+        "ward": {
+          "type": "string",
+          "description": "User's home municipal ward"
+        },
+        "city": {
+          "type": "string",
+          "description": "User's home city"
+        },
+        "karmaPoints": {
+          "type": "number",
+          "description": "Total accrued civic karma points"
+        },
+        "streak": {
+          "type": "number",
+          "description": "Reporting streak count"
+        },
+        "reportedCount": {
+          "type": "number",
+          "description": "Total number of issues reported"
+        }
+      },
+      "required": ["uid", "name", "email", "karmaPoints", "streak", "reportedCount"]
+    },
+    "CivicIssue": {
+      "title": "CivicIssue",
+      "description": "Reported public/municipal grievance",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique issue ID"
+        },
+        "title": {
+          "type": "string",
+          "description": "Short title of the reported problem"
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed text description of the grievance"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["Road Infrastructure", "Sewage & Water", "Electricity", "Garbage & Waste", "Traffic & Transit", "Health & Sanitation"],
+          "description": "Civic category classification"
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["Critical", "Medium", "Low"],
+          "description": "Estimated impact severity level"
+        },
+        "department": {
+          "type": "string",
+          "description": "Targeted municipal department responsible"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Reported", "In Progress", "Resolved"],
+          "description": "Current workflow resolution status"
+        },
+        "address": {
+          "type": "string",
+          "description": "Physical address location"
+        },
+        "lat": {
+          "type": "number",
+          "description": "Latitude coordinate"
+        },
+        "lng": {
+          "type": "number",
+          "description": "Longitude coordinate"
+        },
+        "reporterName": {
+          "type": "string",
+          "description": "Name of the reporting citizen"
+        },
+        "reporterEmail": {
+          "type": "string",
+          "description": "Email of the reporting citizen"
+        },
+        "votes": {
+          "type": "number",
+          "description": "Total upvotes received from other citizens"
+        },
+        "comments": {
+          "type": "array",
+          "description": "List of comment objects"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp or formatted string when the issue was reported"
+        },
+        "slaTime": {
+          "type": "string",
+          "description": "SLA standard resolution time block"
+        },
+        "karmaPoints": {
+          "type": "number",
+          "description": "Accrued points for this specific report"
+        },
+        "ward": {
+          "type": "string",
+          "description": "Target municipal ward location"
+        },
+        "image": {
+          "type": "string",
+          "description": "Base64 or image URL uploaded"
+        },
+        "imageURL": {
+          "type": "string",
+          "description": "Optimized bucket URL"
+        },
+        "voice": {
+          "type": "string",
+          "description": "Optional transcribed voice file path"
+        }
+      },
+      "required": ["id", "title", "description", "category", "severity", "department", "status", "address", "lat", "lng", "reporterName", "reporterEmail", "votes", "comments", "createdAt", "slaTime", "karmaPoints", "ward"]
+    }
+  },
+  "firestore": {
+    "users": {
+      "schema": "User",
+      "description": "Registered civic hero users"
+    },
+    "issues": {
+      "schema": "CivicIssue",
+      "description": "Public/municipal issues reported by citizens"
+    }
+  }
+}
